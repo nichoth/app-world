@@ -1,4 +1,4 @@
-## some terminaology
+## some terminology
 
 A stream contains events. 
 
