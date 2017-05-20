@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@nichoth/utils": "0.0.0",
     "adt": "^0.7.2",
     "flyd": "^0.2.4",
     "message-util": "^1.0.2",
