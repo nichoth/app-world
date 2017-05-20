@@ -29,4 +29,11 @@ A view is a duplux stream that renders to the DOM when it is written to, and emi
 
 
 
+Our state is a tree. Nodes become less generic as they get closer to the root of the tree. 
+
+    a
+ /     \
+b       c
+
+Here a would be the view state specific to our app. `b` and `c` might be domain models -- state that is re-used across the app.
 

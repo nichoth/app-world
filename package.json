@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "adt": "^0.7.2",
+    "flyd": "^0.2.4",
+    "message-util": "^1.0.2",
+    "nanobus": "^3.2.1",
+    "observ": "^0.2.0",
+    "observ-struct": "^6.0.0",
+    "pull-async": "^1.0.0",
+    "pull-cat": "^1.1.11",
+    "pull-catch": "^1.0.0",
+    "pull-many": "^1.0.8",
+    "pull-notify": "^0.1.1",
+    "pull-pushable": "^2.1.0",
+    "pull-store": "^0.1.2",
+    "pull-stream-model": "^0.6.1",
+    "ramda": "^0.23.0",
+    "sanctuary": "^0.12.2",
+    "xtend": "^4.0.1"
+  }
+}
