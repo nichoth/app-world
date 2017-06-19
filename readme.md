@@ -1,8 +1,28 @@
 # trying things with streams
 
-Let's make applications in javascript with functional patterns
+Let's make applications in javascript 
+
+-----------------------------------
+
+## what are we doing?
+
+What are some things that we want? 
+
+We want to know what's going on in the application
+
+We want to know when we write code that is bad
+
+We want to be able to change the app quickly without breaking it
+
+
+----------------------------------------------
+
+
+What if all our application code was static and synchronous?
+
 
 ---------------------------------------
+
 
 Our application has many *domain models* -- state machines that reflect persisted state and are re-used in many views in the app. These are distinct from view state, which is ephemeral and specific to the UI.
 
@@ -32,4 +52,12 @@ Our state is a tree. Nodes become less generic as they get closer to the root of
 ```
 
 Here `a` would be the view state specific to our app. `b` and `c` might be domain models -- state that is re-used across the app.
+
+
+
+## todo
+
+* typescript + pull-stream
+
+
 
